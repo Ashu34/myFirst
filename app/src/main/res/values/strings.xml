@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">myFirst</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="valName1"></string>
+    <string name="valTeamName"></string>
+    <string name="valEntry1"></string>
+    <string name="valName2"></string>
+    <string name="valEntry2"></string>
+    <string name="valName3"></string>
+    <string name="valEntry3"></string>
+    <string name="valSubmit">Submit</string>
+    <string name="fixedValTeamName">Team Name*</string>
+    <string name="fixedValName1">Name 1*</string>
+    <string name="fixedValEntry1">Entry1*</string>
+    <string name="fixedValName2">Name 2*</string>
+    <string name="fixedValEntry2">Entry2*</string>
+    <string name="fixedValName3">Name 3</string>
+    <string name="fixedValEntry3">Entry 3</string>
+    <string name="fixedValHeading">Register Team Details</string>
+    <string name="hintTeam">Enter Team Name</string>
+    <string name="hintEntry1">e.g. 2013EE30561</string>
+    <string name="hintName2">Enter Name 2</string>
+    <string name="hintEntry2">e.g. 2013TT10932</string>
+    <string name="hintName3">Enter Name 3</string>
+    <string name="hintEntry3">e.g. 2013EE30550</string>
+    <string name="hintName1">Enter Name 1</string>
+
+</resources>

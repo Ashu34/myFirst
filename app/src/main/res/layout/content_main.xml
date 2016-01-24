@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#b9243eff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.myfirst.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/background"
+    android:clickable="false"
+    android:scrollIndicators="right">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fixedValTeamName"
+        android:id="@+id/teamName"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/valTeamName"
+        android:id="@+id/getTeamName"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBottom="@+id/teamName"
+        android:layout_toRightOf="@+id/teamName"
+        android:layout_toEndOf="@+id/teamName"
+        android:enabled="true"
+        android:editable="true"
+        android:background="#ffffff"
+        android:hint="@string/hintTeam"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fixedValName1"
+        android:id="@+id/name1"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/teamName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fixedValEntry1"
+        android:id="@+id/entry1"
+        android:layout_below="@+id/name1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/valEntry1"
+        android:hint="@string/hintEntry1"
+        android:id="@+id/getEntry1"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/entry1"
+        android:editable="true"
+        android:layout_alignLeft="@+id/getTeamName"
+        android:layout_alignStart="@+id/getTeamName"
+        android:background="#ffffff"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fixedValName2"
+        android:id="@+id/name2"
+        android:textSize="25sp"
+        android:layout_below="@+id/entry1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valName2"
+        android:hint="@string/hintName2"
+        android:id="@+id/getName2"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/name2"
+        android:layout_alignLeft="@+id/getEntry1"
+        android:layout_alignStart="@+id/getEntry1"
+        android:editable="true"
+        android:background="#ffffff"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fixedValEntry2"
+        android:id="@+id/entry2"
+        android:textSize="25sp"
+        android:layout_below="@+id/name2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/valEntry2"
+        android:hint="@string/hintEntry2"
+        android:id="@+id/getEntry2"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/entry2"
+        android:layout_alignLeft="@+id/getEntry1"
+        android:layout_alignStart="@+id/getEntry1"
+        android:editable="true"
+        android:background="#ffffff"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fixedValName3"
+        android:id="@+id/name3"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/entry2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/valName3"
+        android:hint="@string/hintName3"
+        android:id="@+id/getName3"
+        android:textSize="25sp"
+        android:layout_alignBottom="@+id/name3"
+        android:layout_alignLeft="@+id/getEntry2"
+        android:layout_alignStart="@+id/getEntry2"
+        android:editable="true"
+        android:background="#ffffff"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fixedValEntry3"
+        android:id="@+id/entry3"
+        android:textSize="25sp"
+        android:layout_below="@+id/name3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valEntry3"
+        android:hint="@string/hintEntry3"
+        android:id="@+id/getEntry3"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/entry3"
+        android:layout_alignLeft="@+id/getName3"
+        android:layout_alignStart="@+id/getName3"
+        android:editable="true"
+        android:background="#ffffff"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valSubmit"
+        android:id="@+id/submitButton"
+        android:textSize="25sp"
+        android:singleLine="false"
+        android:nestedScrollingEnabled="false"
+        android:background="#e1d9ff00"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/getEntry3"
+        android:layout_centerHorizontal="true"
+        android:enabled="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/valName1"
+        android:hint="@string/hintName1"
+        android:ems="10"
+        android:id="@+id/getName1"
+        android:textSize="25sp"
+        android:background="#ffffff"
+        android:layout_alignBottom="@+id/name1"
+        android:layout_alignLeft="@+id/getEntry1"
+        android:layout_alignStart="@+id/getEntry1"
+        android:editable="true" />
+
+
+
+
+</RelativeLayout>
+
+    </ScrollView>
